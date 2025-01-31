@@ -55,9 +55,9 @@ async def predict(body: PredictionRequest):
     try:
         await logger.info(f"Processing prediction request with id: {body.id}")
 
-        ans = json.loads(search_and_answer(body.query))
+        ans = json.loads(await search_and_answer(body.query))
 
-        answer = ans['answer']
+        answer = ans['answer'] if ans['answer'] != 0 else None
         reasoning = ans['reasoning']
         sources: List[HttpUrl] = [
             HttpUrl(link) for link in ans['sources']

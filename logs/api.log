@@ -1165,3 +1165,124 @@ Request body: {
 Status: 200
 Response body: {"id":3,"answer":3,"reasoning":"Согласно предоставленным источникам, ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге QS World University Rankings. Информация получена с помощью YandexGPT.","sources":["https://news.itmo.ru/"]}
 Duration: 1.857s
+2025-01-31 15:43:18 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 15:43:18 | INFO | Processing prediction request with id: 3
+2025-01-31 15:43:20 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 15:43:20 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.145s
+2025-01-31 15:44:19 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 15:44:19 | INFO | Processing prediction request with id: 3
+2025-01-31 15:44:22 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 15:44:22 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.476s
+2025-01-31 15:46:30 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 15:46:30 | INFO | Processing prediction request with id: 3
+2025-01-31 15:46:33 | INFO | RESULT: {   "answer": 3,   "reasoning": "Согласно предоставленным источникам, ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге QS World University Rankings. Информация получена с помощью YandexGPT.",   "sources": [     "https://news.itmo.ru/"   ] }
+2025-01-31 15:46:33 | INFO | Successfully processed request 3
+2025-01-31 15:46:33 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Согласно предоставленным источникам, ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге QS World University Rankings. Информация получена с помощью YandexGPT.","sources":["https://news.itmo.ru/"]}
+Duration: 2.471s
+2025-01-31 15:46:47 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 15:46:47 | INFO | Processing prediction request with id: 3
+2025-01-31 15:46:48 | INFO | RESULT: {   "answer": 3,   "reasoning": "Согласно предоставленным источникам, ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге QS World University Rankings. Информация получена с помощью YandexGPT.",   "sources": [     "https://news.itmo.ru/"   ] }
+2025-01-31 15:46:48 | INFO | Successfully processed request 3
+2025-01-31 15:46:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Согласно предоставленным источникам, ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге QS World University Rankings. Информация получена с помощью YandexGPT.","sources":["https://news.itmo.ru/"]}
+Duration: 1.749s
+2025-01-31 16:00:03 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 16:00:03 | INFO | Processing prediction request with id: 3
+2025-01-31 16:00:03 | INFO | START SEARCHING
+2025-01-31 16:00:04 | INFO | GET ANSWER
+2025-01-31 16:00:06 | INFO | RESULT: { "answer": 2, "reasoning": "Согласно информации на официальном сайте ИТМО (itmo.ru), в 2021 году университет впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.", "sources": ["itmo.ru"] }
+2025-01-31 16:00:06 | ERROR | Validation error for request 3: 1 validation error for function-wrap[wrap_val()]
+  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value='itmo.ru', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing
+2025-01-31 16:00:06 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"1 validation error for function-wrap[wrap_val()]\n  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value='itmo.ru', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing"}
+Duration: 2.099s
+2025-01-31 16:15:38 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 16:15:38 | INFO | Processing prediction request with id: 3
+2025-01-31 16:15:38 | INFO | START SEARCHING
+2025-01-31 16:15:38 | INFO | GET ANSWER
+2025-01-31 16:15:40 | INFO | RESULT: { "answer": 2, "reasoning": "Согласно информации с официального сайта ИТМО (itmo.ru), в 2021 году университет впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.", "sources": ["https://itmo.ru"] }
+2025-01-31 16:15:40 | INFO | Successfully processed request 3
+2025-01-31 16:15:40 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"Согласно информации с официального сайта ИТМО (itmo.ru), в 2021 году университет впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.","sources":["https://itmo.ru/"]}
+Duration: 2.185s
+2025-01-31 16:16:32 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 16:16:32 | INFO | Processing prediction request with id: 3
+2025-01-31 16:16:32 | INFO | START SEARCHING
+2025-01-31 16:16:32 | INFO | GET ANSWER
+2025-01-31 16:16:33 | INFO | RESULT: { "answer": 0, "reasoning": "Главный кампус Университета ИТМО находится в Санкт-Петербурге.", "sources": [ "https://itmo.ru/" ] }
+2025-01-31 16:16:33 | INFO | Successfully processed request 3
+2025-01-31 16:16:33 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":0,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.201s
+2025-01-31 16:22:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 16:22:45 | INFO | Processing prediction request with id: 3
+2025-01-31 16:22:45 | INFO | Searching urls
+2025-01-31 16:22:45 | INFO | Getting answer
+2025-01-31 16:22:47 | INFO | Result of llm: { "answer": 0, "reasoning": "Главный кампус Университета ИТМО находится в Санкт-Петербурге.", "sources": [ "https://itmo.ru/" ] }
+2025-01-31 16:22:47 | ERROR | Validation error for request 3: 1 validation error for PredictionResponse
+answer
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+2025-01-31 16:22:47 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"1 validation error for PredictionResponse\nanswer\n  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_type"}
+Duration: 2.220s
+2025-01-31 16:25:00 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 16:25:00 | INFO | Processing prediction request with id: 3
+2025-01-31 16:25:00 | INFO | Searching urls
+2025-01-31 16:25:00 | INFO | Getting answer
+2025-01-31 16:25:02 | INFO | Result of llm: { "answer": 0, "reasoning": "Главный кампус Университета ИТМО находится в Санкт-Петербурге.", "sources": [ "https://itmo.ru/" ] }
+2025-01-31 16:25:02 | INFO | Successfully processed request 3
+2025-01-31 16:25:02 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.698s

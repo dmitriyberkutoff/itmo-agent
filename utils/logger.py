@@ -6,8 +6,11 @@ from aiologger.handlers.files import AsyncFileHandler
 from aiologger.handlers.streams import AsyncStreamHandler
 from aiologger.levels import LogLevel
 
+logger = None
+
 
 async def setup_logger():
+    global logger
     # Create logger instance
     logger = Logger(name="api_logger")
 
@@ -32,3 +35,7 @@ async def setup_logger():
     logger.level = LogLevel.INFO
 
     return logger
+
+
+async def log(message):
+    if logger is not None: await logger.info(message)
