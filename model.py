@@ -18,7 +18,8 @@ async def get_answer(text: str) -> str:
     try:
         llm = sdk.models.completions("yandexgpt").configure(temperature=0)
 
-        system_prompt = """Ты - агент, который отвечает на вопросы про университет ИТМО на основе данных источников. 
+        system_prompt = """
+            Ты - агент, который отвечает на вопросы про университет ИТМО на основе данных источников. 
             Тебе на вход подается вопрос и источники, в которых нужно найти на него ответ и вывести его строго в формате JSON. 
             Приоритет нужно отдавать официальным источникам ИТМО (itmo.ru, news.itmo.ru). 
             В вопросе могут быть варианты ответа (их порядок не важен), а могут не быть.
@@ -42,7 +43,7 @@ async def get_answer(text: str) -> str:
             Пример:
             {"answer": 1, "reasoning": "Главный корпус ИТМО находится..."}
             {"answer": 0, "reasoning": "ИТМО впервые вошел в список лучших университетов..."}
-            """
+        """
 
         messages = [
             {
@@ -55,9 +56,13 @@ async def get_answer(text: str) -> str:
             },
         ]
 
+        await log('Request to LLM')
         result = llm.run(messages)
+        await log('LLM finished')
+        if result is None or result[0] is None:
+            await log('Result is empty')
         result = result[0].text.replace('\n', ' ').strip('` ')
-        await log('Result of llm: ' + result)
+        await log('Cleaned json: ' + result)
         return result
     except Exception as e:
         print(f"Error in answering: {str(e)}")
@@ -70,6 +75,8 @@ async def search_and_answer(query: str) -> str:
     text = query + '\n\n'
     for url, urlText in texts.items():
         text += url + '\n' + urlText + '\n\n'
+
+    await log('Searching result: ' + text[:100])
 
     res = await get_answer(text)
     return res

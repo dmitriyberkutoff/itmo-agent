@@ -1286,3 +1286,73 @@ Request body: {
 Status: 200
 Response body: {"id":3,"answer":null,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
 Duration: 1.698s
+2025-01-31 17:38:25 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 17:38:25 | INFO | Processing prediction request with id: 3
+2025-01-31 17:38:25 | INFO | Searching urls
+2025-01-31 17:38:25 | INFO | Getting answer
+2025-01-31 17:38:25 | INFO | Request to LLM with key AQVN3gMdTMnHE6bLgKx5VHtDgeZNBh1bZwRmstJz
+2025-01-31 17:38:31 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 17:38:31 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 6.060s
+2025-01-31 17:42:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 17:42:45 | INFO | Processing prediction request with id: 3
+2025-01-31 17:42:45 | INFO | Searching urls
+2025-01-31 17:42:45 | INFO | Searching result: В каком городе находится главный кампус Университета ИТМО?
+
+
+2025-01-31 17:42:45 | INFO | Getting answer
+2025-01-31 17:42:45 | INFO | Request to LLM
+2025-01-31 17:42:46 | INFO | LLM finished
+2025-01-31 17:42:46 | INFO | Cleaned json: { "answer": 0, "reasoning": "Главный кампус Университета ИТМО находится в Санкт-Петербурге.", "sources": [ "https://itmo.ru/" ] }
+2025-01-31 17:42:46 | INFO | Successfully processed request 3
+2025-01-31 17:42:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.590s
+2025-01-31 17:42:55 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 17:42:55 | INFO | Processing prediction request with id: 3
+2025-01-31 17:42:55 | INFO | Searching urls
+2025-01-31 17:42:55 | INFO | Searching result: В каком городе находится главный кампус Университета ИТМО?
+
+
+2025-01-31 17:42:55 | INFO | Getting answer
+2025-01-31 17:42:55 | INFO | Request to LLM
+2025-01-31 17:42:56 | INFO | LLM finished
+2025-01-31 17:42:56 | INFO | Cleaned json: { "answer": 0, "reasoning": "Главный кампус Университета ИТМО находится в Санкт-Петербурге.", "sources": [ "https://itmo.ru/" ] }
+2025-01-31 17:42:56 | INFO | Successfully processed request 3
+2025-01-31 17:42:56 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":null,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.483s
+2025-01-31 17:43:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 17:43:53 | INFO | Processing prediction request with id: 3
+2025-01-31 17:43:53 | INFO | Searching urls
+2025-01-31 17:43:53 | INFO | Searching result: В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?
+1. A
+2025-01-31 17:43:53 | INFO | Getting answer
+2025-01-31 17:43:53 | INFO | Request to LLM
+2025-01-31 17:43:55 | INFO | LLM finished
+2025-01-31 17:43:55 | INFO | Cleaned json: { "answer": 2, "reasoning": "Согласно информации с официального сайта ИТМО (itmo.ru), в 2021 году университет впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.", "sources": ["https://news.itmo.ru/", "https://itmo.ru/"] }
+2025-01-31 17:43:55 | INFO | Successfully processed request 3
+2025-01-31 17:43:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"Согласно информации с официального сайта ИТМО (itmo.ru), в 2021 году университет впервые вошёл в топ-400 мировых университетов по версии Times Higher Education (THE) World University Rankings.","sources":["https://news.itmo.ru/","https://itmo.ru/"]}
+Duration: 2.095s
