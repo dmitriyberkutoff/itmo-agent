@@ -3,4 +3,4 @@ test.ipynb
 .idea
 *__pycache__
 *.DS_Store
-logs
+logs/api.log
