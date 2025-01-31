@@ -1,0 +1,11 @@
+services:
+  itmo-agent:
+    build: .
+    container_name: itmo-agent
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - TZ=UTC
+    volumes:
+      - ./logs:/app/logs

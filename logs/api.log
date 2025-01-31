@@ -1,0 +1,174 @@
+2025-01-30 14:20:34 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-30 14:20:34 | INFO | Processing prediction request with id: 1
+2025-01-30 14:20:34 | INFO | Successfully processed request 1
+2025-01-30 14:20:34 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.010s
+2025-01-31 07:49:23 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 07:49:23 | INFO | Processing prediction request with id: 1
+2025-01-31 07:49:23 | INFO | Successfully processed request 1
+2025-01-31 07:49:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.013s
+2025-01-31 09:53:28 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 09:53:28 | INFO | Processing prediction request with id: 1
+2025-01-31 09:53:28 | INFO | Successfully processed request 1
+2025-01-31 09:53:28 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.009s
+2025-01-31 10:00:36 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 10:00:36 | INFO | Processing prediction request with id: 1
+2025-01-31 10:00:36 | INFO | Successfully processed request 1
+2025-01-31 10:00:36 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":1,"reasoning":"Из информации на сайте","sources":["https://itmo.ru/ru/","https://abit.itmo.ru/"]}
+Duration: 0.009s
+2025-01-31 10:08:24 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 10:08:24 | INFO | Processing prediction request with id: 1
+2025-01-31 10:08:24 | ERROR | Validation error for request 1: 3 validation errors for PredictionResponse
+answer
+  Field required [type=missing, input_value={'id': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+reasoning
+  Field required [type=missing, input_value={'id': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+sources
+  Field required [type=missing, input_value={'id': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-01-31 10:08:24 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"3 validation errors for PredictionResponse\nanswer\n  Field required [type=missing, input_value={'id': 1}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.10/v/missing\nreasoning\n  Field required [type=missing, input_value={'id': 1}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.10/v/missing\nsources\n  Field required [type=missing, input_value={'id': 1}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.10/v/missing"}
+Duration: 0.006s
+2025-01-31 10:09:50 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 10:09:50 | INFO | Processing prediction request with id: 1
+2025-01-31 10:09:50 | INFO | Successfully processed request 1
+2025-01-31 10:09:50 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"reasoning","sources":[]}
+Duration: 0.010s
+2025-01-31 11:03:48 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:03:48 | INFO | Processing prediction request with id: 1
+2025-01-31 11:03:52 | ERROR | Validation error for request 1: Expecting value: line 1 column 1 (char 0)
+2025-01-31 11:03:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 3.617s
+2025-01-31 11:06:39 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:06:39 | INFO | Processing prediction request with id: 1
+2025-01-31 11:06:41 | ERROR | Validation error for request 1: Expecting value: line 1 column 1 (char 0)
+2025-01-31 11:06:41 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.738s
+2025-01-31 11:09:49 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:09:49 | INFO | Processing prediction request with id: 1
+2025-01-31 11:09:52 | ERROR | Validation error for request 1: Expecting value: line 1 column 1 (char 0)
+2025-01-31 11:09:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.570s
+2025-01-31 11:16:01 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:16:01 | INFO | Processing prediction request with id: 1
+2025-01-31 11:16:03 | ERROR | Validation error for request 1: Expecting value: line 1 column 1 (char 0)
+2025-01-31 11:16:03 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.920s
+2025-01-31 11:24:26 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:24:26 | INFO | Processing prediction request with id: 1
+2025-01-31 11:24:28 | ERROR | Validation error for request 1: Expecting value: line 1 column 1 (char 0)
+2025-01-31 11:24:28 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.863s
+2025-01-31 11:28:10 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:28:10 | INFO | Processing prediction request with id: 1
+2025-01-31 11:28:13 | ERROR | Validation error for request 1: Expecting value: line 1 column 1 (char 0)
+2025-01-31 11:28:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.341s
+2025-01-31 11:28:52 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:28:52 | INFO | Processing prediction request with id: 1
+2025-01-31 11:28:54 | ERROR | Internal error processing request 1: 'dict' object has no attribute 'answer'
+2025-01-31 11:28:54 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.687s
+2025-01-31 11:30:14 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 11:30:14 | INFO | Processing prediction request with id: 1
+2025-01-31 11:30:16 | INFO | Successfully processed request 1
+2025-01-31 11:30:16 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Это подтверждается информацией на официальном сайте университета и других авторитетных источниках.","sources":["https://itmo.ru/"]}
+Duration: 1.732s
+2025-01-31 11:30:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 11:30:53 | INFO | Processing prediction request with id: 3
+2025-01-31 11:30:55 | INFO | Successfully processed request 3
+2025-01-31 11:30:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Эта информация подтверждается официальными данными на сайте университета и другими авторитетными источниками.","sources":["https://itmo.ru/"]}
+Duration: 1.854s
