@@ -5,6 +5,7 @@ from random import choice
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 
+
 def extract_urls_from_xml(xml_string):
     root = ET.fromstring(xml_string)
     urls = []
@@ -14,6 +15,7 @@ def extract_urls_from_xml(xml_string):
         if len(urls) == 3:
             break
     return urls
+
 
 def fetch_text_from_url(url):
     try:
@@ -27,6 +29,7 @@ def fetch_text_from_url(url):
     except requests.RequestException as e:
         return f"Error fetching {url}: {e}"
 
+
 user_agent_list = [
     'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
     'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
@@ -39,7 +42,7 @@ def random_user_agent():
     return {'User-Agent': agent}
 
 
-class search_api(object):
+class SearchApi(object):
 
     def __init__(self, folder_id, api_key, proxies=None):
         self.folder_id = folder_id
@@ -53,18 +56,15 @@ class search_api(object):
         final_request = '{}{}{}'.format(user_credentials, query_local_lang, results)
 
         try:
-            if self.proxies == None:
-                r = requests.get(final_request, headers=random_user_agent())
-                result = r.text
-            else:
-                r = requests.get(final_request, headers=random_user_agent(), proxies=self.proxies)
-                result = r.text
+            r = requests.get(final_request, headers=random_user_agent(), proxies=self.proxies)
+            result = r.text
         except:
             print('Undocumented Error')
         return result
 
 
-search_scraper = search_api(os.getenv('YANDEX_FOLDER_ID'), os.getenv('YANDEX_SEARCH_API_KEY'))
+search_scraper = SearchApi(os.getenv('YANDEX_FOLDER_ID'), os.getenv('YANDEX_SEARCH_API_KEY'))
+
 
 def search(query):
     xml = search_scraper.get_results(query)

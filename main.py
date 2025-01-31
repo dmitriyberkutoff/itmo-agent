@@ -1,6 +1,7 @@
 import json
 import time
-
+from typing import List
+from pydantic import HttpUrl
 from fastapi import FastAPI, HTTPException, Request, Response
 from schemas.request import PredictionRequest, PredictionResponse
 from utils.logger import setup_logger
@@ -58,7 +59,9 @@ async def predict(body: PredictionRequest):
 
         answer = ans['answer']
         reasoning = ans['reasoning']
-        sources = ans['sources']
+        sources: List[HttpUrl] = [
+            HttpUrl(link) for link in ans['sources']
+        ]
 
         response = PredictionResponse(
             id=body.id,

@@ -194,3 +194,974 @@ Request body: {
 Status: 200
 Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Информация была проверена на официальных источниках университета ИТМО и других авторитетных ресурсах.","sources":["https://itmo.ru/"]}
 Duration: 2.256s
+2025-01-31 13:47:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:47:43 | INFO | Processing prediction request with id: 3
+2025-01-31 13:47:45 | INFO | Successfully processed request 3
+2025-01-31 13:47:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.906s
+2025-01-31 13:54:29 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:54:29 | INFO | Processing prediction request with id: 3
+2025-01-31 13:54:31 | INFO | Successfully processed request 3
+2025-01-31 13:54:31 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.637s
+2025-01-31 13:54:31 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:54:31 | INFO | Processing prediction request with id: 3
+2025-01-31 13:54:32 | INFO | Successfully processed request 3
+2025-01-31 13:54:32 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.384s
+2025-01-31 13:54:36 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:54:36 | INFO | Processing prediction request with id: 3
+2025-01-31 13:54:38 | INFO | Successfully processed request 3
+2025-01-31 13:54:38 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.875s
+2025-01-31 13:54:39 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:54:39 | INFO | Processing prediction request with id: 3
+2025-01-31 13:54:40 | INFO | Successfully processed request 3
+2025-01-31 13:54:40 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.394s
+2025-01-31 13:56:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:17 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:17 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:17 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:17 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:17 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:19 | INFO | Successfully processed request 3
+2025-01-31 13:56:19 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.679s
+2025-01-31 13:56:19 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:19 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:19 | INFO | Successfully processed request 3
+2025-01-31 13:56:19 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.752s
+2025-01-31 13:56:19 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:19 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:19 | INFO | Successfully processed request 3
+2025-01-31 13:56:19 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.828s
+2025-01-31 13:56:19 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:19 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:19 | INFO | Successfully processed request 3
+2025-01-31 13:56:20 | INFO | Successfully processed request 3
+2025-01-31 13:56:20 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.805s
+2025-01-31 13:56:20 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.805s
+2025-01-31 13:56:20 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:20 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:20 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:20 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:21 | INFO | Successfully processed request 3
+2025-01-31 13:56:21 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.398s
+2025-01-31 13:56:21 | INFO | Successfully processed request 3
+2025-01-31 13:56:21 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.329s
+2025-01-31 13:56:21 | INFO | Successfully processed request 3
+2025-01-31 13:56:21 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.470s
+2025-01-31 13:56:22 | INFO | Successfully processed request 3
+2025-01-31 13:56:23 | INFO | Successfully processed request 3
+2025-01-31 13:56:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.454s
+2025-01-31 13:56:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.454s
+2025-01-31 13:56:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:41 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:41 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:41 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:41 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:41 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:42 | INFO | Successfully processed request 3
+2025-01-31 13:56:42 | INFO | Successfully processed request 3
+2025-01-31 13:56:42 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.301s
+2025-01-31 13:56:42 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.308s
+2025-01-31 13:56:42 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:42 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:42 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:42 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:42 | INFO | Successfully processed request 3
+2025-01-31 13:56:42 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.712s
+2025-01-31 13:56:42 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:42 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:42 | INFO | Successfully processed request 3
+2025-01-31 13:56:43 | INFO | Successfully processed request 3
+2025-01-31 13:56:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.521s
+2025-01-31 13:56:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.520s
+2025-01-31 13:56:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:43 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:43 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:43 | INFO | Successfully processed request 3
+2025-01-31 13:56:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.260s
+2025-01-31 13:56:43 | INFO | Successfully processed request 3
+2025-01-31 13:56:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.274s
+2025-01-31 13:56:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:43 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:43 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:44 | INFO | Successfully processed request 3
+2025-01-31 13:56:44 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.311s
+2025-01-31 13:56:44 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:44 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:45 | INFO | Successfully processed request 3
+2025-01-31 13:56:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.470s
+2025-01-31 13:56:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:45 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:45 | INFO | Successfully processed request 3
+2025-01-31 13:56:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.555s
+2025-01-31 13:56:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:45 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:45 | INFO | Successfully processed request 3
+2025-01-31 13:56:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.316s
+2025-01-31 13:56:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:45 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:44 | INFO | Successfully processed request 3
+2025-01-31 13:56:46 | INFO | Successfully processed request 3
+2025-01-31 13:56:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.709s
+2025-01-31 13:56:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.709s
+2025-01-31 13:56:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:46 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:46 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:46 | INFO | Successfully processed request 3
+2025-01-31 13:56:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.274s
+2025-01-31 13:56:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:46 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:46 | INFO | Successfully processed request 3
+2025-01-31 13:56:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.319s
+2025-01-31 13:56:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 13:56:46 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:46 | INFO | Successfully processed request 3
+2025-01-31 13:56:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.255s
+2025-01-31 13:56:47 | INFO | Successfully processed request 3
+2025-01-31 13:56:47 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.284s
+2025-01-31 13:56:47 | INFO | Successfully processed request 3
+2025-01-31 13:56:47 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.285s
+2025-01-31 13:56:47 | INFO | Successfully processed request 3
+2025-01-31 13:56:48 | INFO | Successfully processed request 3
+2025-01-31 13:56:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.633s
+2025-01-31 13:56:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 2.633s
+2025-01-31 14:00:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:02 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:02 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:02 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:02 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:02 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:04 | INFO | Successfully processed request 3
+2025-01-31 14:00:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.459s
+2025-01-31 14:00:04 | INFO | Successfully processed request 3
+2025-01-31 14:00:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.463s
+2025-01-31 14:00:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:04 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:04 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:04 | INFO | Successfully processed request 3
+2025-01-31 14:00:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.500s
+2025-01-31 14:00:04 | INFO | Successfully processed request 3
+2025-01-31 14:00:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.508s
+2025-01-31 14:00:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:04 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:04 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:04 | INFO | Successfully processed request 3
+2025-01-31 14:00:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.576s
+2025-01-31 14:00:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:04 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:05 | INFO | Successfully processed request 3
+2025-01-31 14:00:05 | INFO | Successfully processed request 3
+2025-01-31 14:00:05 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.292s
+2025-01-31 14:00:05 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.247s
+2025-01-31 14:00:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:05 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:05 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:05 | INFO | Successfully processed request 3
+2025-01-31 14:00:05 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.436s
+2025-01-31 14:00:05 | INFO | Successfully processed request 3
+2025-01-31 14:00:05 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.484s
+2025-01-31 14:00:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:05 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:05 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:06 | INFO | Successfully processed request 3
+2025-01-31 14:00:06 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.478s
+2025-01-31 14:00:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:06 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:07 | INFO | Successfully processed request 3
+2025-01-31 14:00:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.303s
+2025-01-31 14:00:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:07 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:07 | INFO | Successfully processed request 3
+2025-01-31 14:00:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.368s
+2025-01-31 14:00:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:07 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:07 | INFO | Successfully processed request 3
+2025-01-31 14:00:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.321s
+2025-01-31 14:00:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:07 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:07 | INFO | Successfully processed request 3
+2025-01-31 14:00:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.263s
+2025-01-31 14:00:07 | INFO | Successfully processed request 3
+2025-01-31 14:00:07 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.366s
+2025-01-31 14:00:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:07 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:00:07 | INFO | Processing prediction request with id: 3
+2025-01-31 14:00:08 | INFO | Successfully processed request 3
+2025-01-31 14:00:08 | INFO | Successfully processed request 3
+2025-01-31 14:00:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.396s
+2025-01-31 14:00:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.333s
+2025-01-31 14:00:08 | INFO | Successfully processed request 3
+2025-01-31 14:00:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.263s
+2025-01-31 14:00:08 | INFO | Successfully processed request 3
+2025-01-31 14:00:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.203s
+2025-01-31 14:00:08 | INFO | Successfully processed request 3
+2025-01-31 14:00:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.513s
+2025-01-31 14:11:49 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:49 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:49 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:49 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:49 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:49 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:49 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:49 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:49 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:49 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:51 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:51 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.266s
+2025-01-31 14:11:51 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:51 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:51 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:51 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.319s
+2025-01-31 14:11:51 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:51 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:51 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:51 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.388s
+2025-01-31 14:11:51 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:51 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:53 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:51 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:53 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.919s
+2025-01-31 14:11:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 4.211s
+2025-01-31 14:11:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 4.211s
+2025-01-31 14:11:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:53 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:53 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:53 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:53 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.930s
+2025-01-31 14:11:53 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:53 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:53 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.366s
+2025-01-31 14:11:54 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:54 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:55 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.873s
+2025-01-31 14:11:55 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:55 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:55 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.064s
+2025-01-31 14:11:55 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:55 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:55 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.356s
+2025-01-31 14:11:55 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:55 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:55 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.412s
+2025-01-31 14:11:55 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:55 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:56 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:56 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.955s
+2025-01-31 14:11:56 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:56 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:57 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:57 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.883s
+2025-01-31 14:11:57 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:57 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:57 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:57 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.999s
+2025-01-31 14:11:57 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:11:57 | INFO | Processing prediction request with id: 3
+2025-01-31 14:11:57 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:57 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.890s
+2025-01-31 14:11:57 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:57 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.072s
+2025-01-31 14:11:58 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:58 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.225s
+2025-01-31 14:11:59 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:59 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.896s
+2025-01-31 14:11:59 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:11:59 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.276s
+2025-01-31 14:13:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:13:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:13:06 | INFO | Processing prediction request with id: 3
+2025-01-31 14:13:06 | INFO | Processing prediction request with id: 3
+2025-01-31 14:13:08 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:13:08 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:13:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.989s
+2025-01-31 14:13:08 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.990s
+2025-01-31 14:13:33 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:13:33 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:13:33 | INFO | Processing prediction request with id: 3
+2025-01-31 14:13:33 | INFO | Processing prediction request with id: 3
+2025-01-31 14:13:35 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:13:35 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 1.862s
+2025-01-31 14:13:35 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:13:35 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.128s
+2025-01-31 14:25:59 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:25:59 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:25:59 | INFO | Processing prediction request with id: 3
+2025-01-31 14:25:59 | INFO | Processing prediction request with id: 3
+2025-01-31 14:26:02 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:26:02 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.866s
+2025-01-31 14:26:02 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:26:02 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 3.084s
+2025-01-31 14:26:15 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:26:15 | INFO | Processing prediction request with id: 3
+2025-01-31 14:26:17 | ERROR | Validation error for request 3: Expecting value: line 1 column 1 (char 0)
+2025-01-31 14:26:17 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"Expecting value: line 1 column 1 (char 0)"}
+Duration: 2.011s
+2025-01-31 14:28:11 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:28:11 | INFO | Processing prediction request with id: 3
+2025-01-31 14:28:14 | ERROR | Validation error for request 3: 1 validation error for PredictionResponse
+sources.0
+  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value='news.itmo.ru', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing
+2025-01-31 14:28:14 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"1 validation error for PredictionResponse\nsources.0\n  Input should be a valid URL, relative URL without a base [type=url_parsing, input_value='news.itmo.ru', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/url_parsing"}
+Duration: 2.358s
+2025-01-31 14:30:50 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:30:50 | INFO | Processing prediction request with id: 3
+2025-01-31 14:30:52 | ERROR | Internal error processing request 3: name 'HTTPUrl' is not defined
+2025-01-31 14:30:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 1.877s
+2025-01-31 14:32:58 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 14:32:58 | INFO | Processing prediction request with id: 3
+2025-01-31 14:33:00 | INFO | Successfully processed request 3
+2025-01-31 14:33:00 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Согласно информации на официальном сайте ИТМО (https://news.itmo.ru/), в 2021 году университет впервые вошёл в топ-400 лучших вузов мира по версии QS World University Rankings.","sources":["https://news.itmo.ru/"]}
+Duration: 2.088s
+2025-01-31 14:33:25 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 14:33:25 | INFO | Processing prediction request with id: 3
+2025-01-31 14:33:26 | INFO | Successfully processed request 3
+2025-01-31 14:33:26 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге.","sources":["https://itmo.ru/"]}
+Duration: 1.301s
+2025-01-31 15:27:24 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 15:27:24 | INFO | Processing prediction request with id: 3
+2025-01-31 15:27:25 | INFO | Successfully processed request 3
+2025-01-31 15:27:25 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":0,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Эту информацию можно найти на официальном сайте университета.","sources":["https://itmo.ru/"]}
+Duration: 1.741s
+2025-01-31 15:27:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities",
+  "id": 3
+}
+2025-01-31 15:27:45 | INFO | Processing prediction request with id: 3
+2025-01-31 15:27:47 | INFO | Successfully processed request 3
+2025-01-31 15:27:47 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"Согласно предоставленным источникам, ИТМО впервые вошёл в топ-400 мировых университетов в рейтинге QS World University Rankings. Информация получена с помощью YandexGPT.","sources":["https://news.itmo.ru/"]}
+Duration: 1.857s
