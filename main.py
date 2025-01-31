@@ -10,6 +10,7 @@ from model import search_and_answer
 # Initialize
 app = FastAPI()
 logger = None
+model_info = ' Информация была получена с помощью YandexGPT.'
 
 
 @app.on_event("startup")
@@ -59,7 +60,7 @@ async def predict(body: PredictionRequest):
         json_answer = json.loads(llm_answer)
 
         answer = json_answer['answer'] if json_answer['answer'] != 0 else None
-        reasoning = json_answer['reasoning']
+        reasoning = json_answer['reasoning'] + model_info
         sources: List[HttpUrl] = [
             HttpUrl(link) for link in json_answer['sources']
         ]
