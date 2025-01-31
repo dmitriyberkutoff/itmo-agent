@@ -4,7 +4,7 @@ from typing import List
 from pydantic import HttpUrl
 from fastapi import FastAPI, HTTPException, Request, Response
 from schemas.request import PredictionRequest, PredictionResponse
-from utils.logger import setup_logger
+from utils.logger import setup_logger, log_info, log_error
 from model import search_and_answer
 
 # Initialize
@@ -23,7 +23,7 @@ async def log_requests(request: Request, call_next):
     start_time = time.time()
 
     body = await request.body()
-    await logger.info(
+    await log_info(
         f"Incoming request: {request.method} {request.url}\n"
         f"Request body: {body.decode()}"
     )
@@ -35,7 +35,7 @@ async def log_requests(request: Request, call_next):
     async for chunk in response.body_iterator:
         response_body += chunk
 
-    await logger.info(
+    await log_info(
         f"Request completed: {request.method} {request.url}\n"
         f"Status: {response.status_code}\n"
         f"Response body: {response_body.decode()}\n"
@@ -53,14 +53,15 @@ async def log_requests(request: Request, call_next):
 @app.post("/api/request", response_model=PredictionResponse)
 async def predict(body: PredictionRequest):
     try:
-        await logger.info(f"Processing prediction request with id: {body.id}")
+        await log_info(f"Processing prediction request with id: {body.id}")
 
-        ans = json.loads(await search_and_answer(body.query))
+        llm_answer = await search_and_answer(body.query)
+        json_answer = json.loads(llm_answer)
 
-        answer = ans['answer'] if ans['answer'] != 0 else None
-        reasoning = ans['reasoning']
+        answer = json_answer['answer'] if json_answer['answer'] != 0 else None
+        reasoning = json_answer['reasoning']
         sources: List[HttpUrl] = [
-            HttpUrl(link) for link in ans['sources']
+            HttpUrl(link) for link in json_answer['sources']
         ]
 
         response = PredictionResponse(
@@ -69,12 +70,14 @@ async def predict(body: PredictionRequest):
             reasoning=reasoning,
             sources=sources,
         )
-        await logger.info(f"Successfully processed request {body.id}")
+
+        await log_info(f"Successfully processed request {body.id}")
+
         return response
     except ValueError as e:
         error_msg = str(e)
-        await logger.error(f"Validation error for request {body.id}: {error_msg}")
+        await log_error(f"Validation error for request {body.id}: {error_msg}")
         raise HTTPException(status_code=400, detail=error_msg)
     except Exception as e:
-        await logger.error(f"Internal error processing request {body.id}: {str(e)}")
+        await log_error(f"Internal error processing request {body.id}: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error")

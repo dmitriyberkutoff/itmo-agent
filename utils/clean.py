@@ -3,6 +3,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 def clean_text(text):
+    '''Simple cleaning of text'''
     text = text.lower()
     text = text.translate(str.maketrans("", "", string.punctuation))
     words = word_tokenize(text)

@@ -1,9 +1,8 @@
+import os
 from dotenv import load_dotenv
 from yandex_cloud_ml_sdk import YCloudML
-import os
-
-from utils.logger import log
-from utils.search import search
+from utils.logger import log_info
+from utils.search import search_scraper
 
 load_dotenv()
 
@@ -14,7 +13,9 @@ sdk = YCloudML(
 
 
 async def get_answer(text: str) -> str:
-    await log("Getting answer")
+    '''Answers the question with the provided sources'''
+    await log_info("Getting answer")
+
     try:
         llm = sdk.models.completions("yandexgpt").configure(temperature=0)
 
@@ -56,13 +57,17 @@ async def get_answer(text: str) -> str:
             },
         ]
 
-        await log('Request to LLM')
+        await log_info('Request to LLM')
+
         result = llm.run(messages)
-        await log('LLM finished')
+
         if result is None or result[0] is None:
-            await log('Result is empty')
+            await log_info('Result is empty')
+
         result = result[0].text.replace('\n', ' ').strip('` ')
-        await log('Cleaned json: ' + result)
+
+        await log_info('LLM result: ' + result[:50])
+
         return result
     except Exception as e:
         print(f"Error in answering: {str(e)}")
@@ -70,13 +75,12 @@ async def get_answer(text: str) -> str:
 
 
 async def search_and_answer(query: str) -> str:
-    await log('Searching urls')
-    texts = search(query)
-    text = query + '\n\n'
-    for url, urlText in texts.items():
-        text += url + '\n' + urlText + '\n\n'
+    '''Search information in the Internet for query, collects to one text and asks LLM'''
+    url_text_map = await search_scraper.search(query)
+    text_parts = [query]
+    for url, text in url_text_map.items():
+        text_parts.append(url + '\n' + text)
 
-    await log('Searching result: ' + text[:100])
-
-    res = await get_answer(text)
+    llm_text = '\n\n'.join(text_parts)
+    res = await get_answer(llm_text)
     return res

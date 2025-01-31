@@ -37,5 +37,8 @@ async def setup_logger():
     return logger
 
 
-async def log(message):
+async def log_info(message: str):
     if logger is not None: await logger.info(message)
+
+async def log_error(message: str):
+    if logger is not None: await logger.error(message)
