@@ -172,3 +172,25 @@ Request body: {
 Status: 200
 Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Эта информация подтверждается официальными данными на сайте университета и другими авторитетными источниками.","sources":["https://itmo.ru/"]}
 Duration: 1.854s
+2025-01-31 12:45:19 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 12:45:19 | INFO | Processing prediction request with id: 3
+2025-01-31 12:45:21 | INFO | Successfully processed request 3
+2025-01-31 12:45:21 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Эта информация подтверждается официальными данными на сайте университета и другими авторитетными источниками.","sources":["https://itmo.ru/"]}
+Duration: 1.939s
+2025-01-31 12:48:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?",
+  "id": 3
+}
+2025-01-31 12:48:07 | INFO | Processing prediction request with id: 3
+2025-01-31 12:48:10 | INFO | Successfully processed request 3
+2025-01-31 12:48:10 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Главный кампус Университета ИТМО находится в Санкт-Петербурге. Информация была проверена на официальных источниках университета ИТМО и других авторитетных ресурсах.","sources":["https://itmo.ru/"]}
+Duration: 2.256s
